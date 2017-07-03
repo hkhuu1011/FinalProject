@@ -8,6 +8,6 @@
     <title>{{ config('app.name', 'Recipes') }}</title>
 
 <body>
-    <h1>Search Form</h1>
+<h1>Results</h1>
 </body>
 </html>
