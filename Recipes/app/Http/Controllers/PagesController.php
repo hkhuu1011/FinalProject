@@ -7,14 +7,17 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function search(){
-        return view('pages.search');
+        $title = 'Search Form';
+        return view('pages.search')->with('title', $title);
     }
 
     public function results(){
-        return view('pages.results');
+        $title = 'Search Results';
+        return view('pages.results')->with('title', $title);
     }
 
     public function saved(){
-        return view('pages.saved');
+        $title = 'Saved Results';
+        return view('pages.saved')->with('title', $title);
     }
 }

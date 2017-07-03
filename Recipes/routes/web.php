@@ -22,3 +22,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/search', 'PagesController@search');
 
 Route::get('/results', 'PagesController@results');
+
+Route::get('/saved', 'PagesController@saved');
