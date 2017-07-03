@@ -19,6 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/search', function () {
-    return '<h1>Search Form</h1>';
-});
+Route::get('/search', 'PagesController@search');
+
+Route::get('/results', 'PagesController@results');
