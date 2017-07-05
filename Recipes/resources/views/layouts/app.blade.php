@@ -14,11 +14,13 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+    <div id='app'>
         @include('inc.navbar')
         <div class="container">
+            @include('inc.messages')
             @yield('content')
         </div>
-
+    </div>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

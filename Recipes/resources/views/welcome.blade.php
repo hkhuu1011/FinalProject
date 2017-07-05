@@ -13,8 +13,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #3a1717;
-                background-image: url('../img/main_bg.jpg');
+                /*background-color: #3a1717;*/
+                background-image: url('https://raw.githubusercontent.com/hkhuu1011/FinalProject/master/Recipes/public/img/main_bg.jpg');
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-position: center;
