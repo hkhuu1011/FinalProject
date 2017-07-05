@@ -8350,3 +8350,8 @@ button.close {
   }
 }
 
+html,
+body {
+  background: #3a1717 !important;
+}
+
